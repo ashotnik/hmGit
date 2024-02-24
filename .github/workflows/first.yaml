@@ -2,7 +2,7 @@ name: first pipline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev-1" ]
     
 jobs:
   build:
