@@ -1,0 +1,5 @@
+name:first pipline
+on:
+  push:
+  branch:ashotnik-patch-2
+echo:"hello world"
