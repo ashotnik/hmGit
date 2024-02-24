@@ -1,5 +1,13 @@
-name:first pipline
+name: first pipline
+
 on:
   push:
-    branch:dev-1
-echo:"hello world"
+    branches: [ "main" ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: nnm
+        run: echo Hello, world!
