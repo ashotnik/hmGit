@@ -1,5 +1,5 @@
 name:first pipline
 on:
   push:
-  branch:ashotnik-patch-2
+    branch:dev-1
 echo:"hello world"
